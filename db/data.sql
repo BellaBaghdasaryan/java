@@ -8,29 +8,27 @@ ALTER TABLE `brs`.`bus` AUTO_INCREMENT = 200;
 delete from `brs`.`route`;
 ALTER TABLE `brs`.`route` AUTO_INCREMENT = 10;
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Visakhapatnam','Hyderabad');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Vanadzor','Yerevan');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Hyderabad','Visakhapatnam');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Yerevan','Gyumri');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Visakhapatnam','Bangalore');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Gyumri','Vanadzor');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Bangalore','Visakhapatnam');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Yerevan','Vanadzor');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Visakhapatnam','Tirupati');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Gyumri','Yerevan');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Tirupati','Visakhapatnam');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Abovyan','Yerevan');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Hyderabad','Bangalore');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Yerevan','Abovyan');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Bangalore','Hyderabad');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Hrazdan','Yerevan');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Hyderabad','Tirupati');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Yerevan','Hrazdan');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Tirupati','Hyderabad');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Dilijan','Yerevan');
 
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Bangalore','Tirupati');
-
-INSERT INTO `brs`.`route` (origin,destination) VALUES ('Tirupati','Bangalore');
+INSERT INTO `brs`.`route` (origin,destination) VALUES ('Yerevan','Dilijan');
 
 
 INSERT INTO `brs`.`bus` (routeid,ac,fare,departuretime,arrivaltime) VALUES (10,1,1600,'20:00','09:00');
